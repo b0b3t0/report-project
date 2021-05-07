@@ -1,13 +1,12 @@
-package data.output;
+package data;
 
 public class SellerResult {
 
     private final String name;
-    private final double score;
+    private double score;
 
-    public SellerResult(String name, double score) {
+    public SellerResult(String name) {
         this.name = name;
-        this.score = score;
     }
 
     public String getName() {
@@ -16,6 +15,10 @@ public class SellerResult {
 
     public double getScore() {
         return score;
+    }
+
+    public void setScore(double score) {
+        this.score = score;
     }
 
     @Override
