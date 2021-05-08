@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ReportResultCalculator {
 
-    public static List<SellerResult> calcResult(SellerDataDto[] sellers, ReportRulesDto rules) {
+    public static List<SellerResult> calculateResult(SellerDataDto[] sellers, ReportRulesDto rules) {
         List<SellerResult> resultList = new ArrayList<>();
 
         for (SellerDataDto seller : sellers) {
@@ -19,12 +19,10 @@ public class ReportResultCalculator {
 
             double score = calculateScore(rules, seller);
 
-
             if (score >= rules.getTopPerformersThreshold()) {
                 SellerResult result = new SellerResult(seller.getName(), score);
                 resultList.add(result);
             }
-
         }
 
         return resultList;
@@ -33,7 +31,7 @@ public class ReportResultCalculator {
     private static double calculateScore(ReportRulesDto rules, SellerDataDto seller) {
         double sellerTotalSales = seller.getTotalSales();
         double sellerSalesPeriod = seller.getSalesPeriod();
-        
+
         if (rules.isUseExperienceMultiplier()) {
             return sellerTotalSales / sellerSalesPeriod * seller.getExperienceMultiplier();
         } else {
