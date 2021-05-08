@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class FileCreator {
 
-    public static void createFile(String filePath) {
+    public static File createFile(String filePath) {
 
         File file = new File(filePath);
         boolean result;
@@ -19,5 +19,7 @@ public class FileCreator {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        return file;
     }
 }
