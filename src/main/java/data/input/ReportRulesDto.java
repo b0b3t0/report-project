@@ -2,15 +2,12 @@ package data.input;
 
 public class ReportRulesDto {
 
-    private final int topPerformersThreshold;
-    private final boolean useExperienceMultiplier;
-    private final int periodLimit;
+    private int topPerformersThreshold;
+    private boolean useExperienceMultiplier;
+    private int periodLimit;
 
 
-    public ReportRulesDto(int topPerformersThreshold, boolean useExperienceMultiplier, int periodLimit) {
-        this.topPerformersThreshold = topPerformersThreshold;
-        this.useExperienceMultiplier = useExperienceMultiplier;
-        this.periodLimit = periodLimit;
+    public ReportRulesDto () {
     }
 
     public int getTopPerformersThreshold() {
@@ -23,6 +20,18 @@ public class ReportRulesDto {
 
     public int getPeriodLimit() {
         return periodLimit;
+    }
+
+    public void setTopPerformersThreshold(int topPerformersThreshold) {
+        this.topPerformersThreshold = topPerformersThreshold;
+    }
+
+    public void setUseExperienceMultiplier(boolean useExperienceMultiplier) {
+        this.useExperienceMultiplier = useExperienceMultiplier;
+    }
+
+    public void setPeriodLimit(int periodLimit) {
+        this.periodLimit = periodLimit;
     }
 
     @Override

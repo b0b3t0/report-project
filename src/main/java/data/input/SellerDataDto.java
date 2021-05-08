@@ -2,10 +2,10 @@ package data.input;
 
 public class SellerDataDto {
 
-    private final String name;
-    private final int totalSales;
-    private final int salesPeriod;
-    private final double experienceMultiplier;
+    private String name;
+    private int totalSales;
+    private int salesPeriod;
+    private double experienceMultiplier;
 
 
     public SellerDataDto(String name, int totalSales, int salesPeriod, double experienceMultiplier) {
@@ -29,6 +29,22 @@ public class SellerDataDto {
 
     public double getExperienceMultiplier() {
         return experienceMultiplier;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setTotalSales(int totalSales) {
+        this.totalSales = totalSales;
+    }
+
+    public void setSalesPeriod(int salesPeriod) {
+        this.salesPeriod = salesPeriod;
+    }
+
+    public void setExperienceMultiplier(double experienceMultiplier) {
+        this.experienceMultiplier = experienceMultiplier;
     }
 
     @Override
