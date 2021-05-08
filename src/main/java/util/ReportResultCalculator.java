@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ReportResultCalculator {
 
-    public static List<SellerResult> calcResult(List<SellerDataDto> sellers, ReportRulesDto rules) {
+    public static List<SellerResult> calcResult (SellerDataDto[] sellers, ReportRulesDto rules) {
         List<SellerResult> resultList = new ArrayList<>();
 
         for (SellerDataDto seller : sellers) {
