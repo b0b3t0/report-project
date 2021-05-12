@@ -15,10 +15,12 @@ public class CsvWriter {
 
         StringBuilder csvContent = new StringBuilder();
         // add csv header
-        csvContent.append(COLUMN_NAME).append(SEPARATOR).append(COLUMN_SCORE);
+        csvContent.append(COLUMN_NAME).append(SEPARATOR).append(COLUMN_SCORE)
+                .append(System.lineSeparator());
 
         for (SellerResult result : results) {
-            csvContent.append(result.getName()).append(SEPARATOR).append(result.getScore());
+            csvContent.append(result.getName()).append(SEPARATOR).append(result.getScore())
+                    .append(System.lineSeparator());
         }
 
         FileUtils.write(path, csvContent.toString());
