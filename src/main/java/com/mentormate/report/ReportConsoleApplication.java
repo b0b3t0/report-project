@@ -17,7 +17,7 @@ public class ReportConsoleApplication {
 
         if (args.length != 2) {
             System.err.println("Please provide path to data file and report definition file");
-            System.err.println("example: java -jar reports-client.jar path/to/data.json path/to/definition.json");
+            System.err.println("example: java -jar report-client.jar path/to/data.json path/to/definition.json");
             System.exit(1);
         }
 
