@@ -35,6 +35,7 @@ public class ReportConsoleApplication {
             File file = FileUtils.touchFile(outputFilePath);
             List<SellerResult> results = ReportResultCalculator.calculateResult(data, rules);
             CsvWriter.writeResultIntoFile(file.getPath(), results);
+            System.out.println("csv report generated at " + file.getPath());
             return null;
         });
     }
