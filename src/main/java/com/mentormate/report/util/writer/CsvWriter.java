@@ -2,6 +2,7 @@ package com.mentormate.report.util.writer;
 
 import com.mentormate.report.data.SellerResult;
 import com.mentormate.report.util.FileUtils;
+
 import java.util.List;
 
 public class CsvWriter {
@@ -9,7 +10,6 @@ public class CsvWriter {
     private static final String COLUMN_NAME = "Name";
     private static final String COLUMN_SCORE = "Score";
     private static final String SEPARATOR = ",";
-
 
     public static void writeResultIntoFile(String path, List<SellerResult> results) {
 
@@ -24,6 +24,5 @@ public class CsvWriter {
         }
 
         FileUtils.write(path, csvContent.toString());
-
     }
 }
