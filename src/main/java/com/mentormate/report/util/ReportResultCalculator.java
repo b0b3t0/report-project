@@ -1,8 +1,8 @@
-package util;
+package com.mentormate.report.util;
 
-import data.SellerResult;
-import data.input.ReportRulesDto;
-import data.input.SellerDataDto;
+import com.mentormate.report.data.SellerResult;
+import com.mentormate.report.data.input.ReportRulesDto;
+import com.mentormate.report.data.input.SellerDataDto;
 
 import java.util.ArrayList;
 import java.util.List;

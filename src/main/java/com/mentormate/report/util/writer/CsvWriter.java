@@ -1,7 +1,7 @@
-package util.writer;
+package com.mentormate.report.util.writer;
 
-import data.SellerResult;
-import util.FileUtils;
+import com.mentormate.report.data.SellerResult;
+import com.mentormate.report.util.FileUtils;
 import java.util.List;
 
 public class CsvWriter {

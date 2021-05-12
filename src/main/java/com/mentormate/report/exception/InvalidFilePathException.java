@@ -1,4 +1,4 @@
-package exception;
+package com.mentormate.report.exception;
 
 public class InvalidFilePathException extends RuntimeException {
 

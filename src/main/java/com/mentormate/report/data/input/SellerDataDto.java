@@ -1,4 +1,4 @@
-package data.input;
+package com.mentormate.report.data.input;
 
 public class SellerDataDto {
 

@@ -1,4 +1,4 @@
-package util;
+package com.mentormate.report.util;
 
 import java.io.File;
 import java.io.IOException;

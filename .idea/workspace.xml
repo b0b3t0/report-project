@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290353b3-5d99-4b06-b9d1-336dc24f8ac9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mentormate/report/ReportConsoleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReportConsoleApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/SellerResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentormate/report/data/SellerResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/input/ReportRulesDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentormate/report/data/input/ReportRulesDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/input/SellerDataDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentormate/report/data/input/SellerDataDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exception/InvalidFilePathException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentormate/report/exception/InvalidFilePathException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/FileCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentormate/report/util/FileCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentormate/report/util/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/ReportResultCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentormate/report/util/ReportResultCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/writer/CsvWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mentormate/report/util/writer/CsvWriter.java" afterDir="false" />
+    </list>
+    <list id="ff4baccc-bd55-48a9-9604-36ccd94323f7" name="Changes by marianzlatev" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +29,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/pom.xml">
+      <ranges>
+        <range start1="7" end1="8" start2="7" end2="8" changelist="290353b3-5d99-4b06-b9d1-336dc24f8ac9" />
+        <range start1="9" end1="9" start2="9" end2="10" changelist="290353b3-5d99-4b06-b9d1-336dc24f8ac9" />
+        <range start1="11" end1="13" start2="12" end2="14" changelist="ff4baccc-bd55-48a9-9604-36ccd94323f7" />
+        <range start1="23" end1="23" start2="24" end2="56" changelist="ff4baccc-bd55-48a9-9604-36ccd94323f7" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="1sAt7vdWe2KlY8KvhvzDN35loz8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,9 +54,37 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="exception" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ReportConsoleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.metormate.report.ReportConsoleApplication" />
+      <module name="reports-project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReportConsoleApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,5 +96,12 @@
       <updated>1620327059466</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

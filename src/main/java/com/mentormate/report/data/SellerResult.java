@@ -1,4 +1,4 @@
-package data;
+package com.mentormate.report.data;
 
 public class SellerResult {
 

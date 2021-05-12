@@ -1,7 +1,7 @@
-package util;
+package com.mentormate.report.util;
 
 import com.google.gson.Gson;
-import exception.InvalidFilePathException;
+import com.mentormate.report.exception.InvalidFilePathException;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
