@@ -2,7 +2,6 @@ package util;
 
 import com.google.gson.Gson;
 import exception.InvalidFilePathException;
-import exception.InvalidJsonFileException;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -37,5 +36,4 @@ public class FileUtils {
             throw new InvalidFilePathException(path, e.getCause());
         }
     }
-
 }
